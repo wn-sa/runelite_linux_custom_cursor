@@ -19,9 +19,10 @@ import net.runelite.client.ui.overlay.OverlayManager;
 @PluginDescriptor(
 	name = "Linux Custom Cursor",
 	description = "Workaround for custom cursor plugin not working on Linux OS's",
-	tags = {"cursor", "overlay", "linux", "custom-cursor"}
+	tags = {"cursor", "overlay", "linux", "custom-cursor"},
+	conflicts="Custom Cursor"
 )
-@PluginDependency(CustomCursorPlugin.class)
+
 public class LinuxCustomCursorPlugin extends Plugin
 {
 	@Inject

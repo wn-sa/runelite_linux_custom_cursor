@@ -58,6 +58,8 @@ this information dynamically from Java, so the user will have to edit it themsel
 * As of now, just one option to also render the normal system cursor at the same time. This can be useful to help adjust the hotspot.
 
 # Changelog
+#### 1.3
+* Updated to support RuneLite's PluginDependency changes
 #### 1.2
 * Modified behavior to disable the overlay when the drag hotkey (default is left alt, set in the 'RuneLite' settings) 
 is pressed. There was a report that the plugin was interfering with the ability
